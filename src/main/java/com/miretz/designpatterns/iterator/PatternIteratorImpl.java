@@ -2,9 +2,6 @@ package com.miretz.designpatterns.iterator;
 
 import java.util.List;
 
-/**
- * Created by Miretz on 28. 10. 2015.
- */
 public class PatternIteratorImpl implements PatternIterator {
 
     List<DesignPattern> patternList;
@@ -26,9 +23,6 @@ public class PatternIteratorImpl implements PatternIterator {
 
     @Override
     public boolean isLastPattern() {
-        if (position < patternList.size()) {
-            return false;
-        }
-        return true;
+        return position >= patternList.size();
     }
 }

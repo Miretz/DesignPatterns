@@ -3,9 +3,6 @@ package com.miretz.designpatterns.iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Miretz on 28. 10. 2015.
- */
 public class PatternListImpl implements PatternList {
 
     List<DesignPattern> patternList;

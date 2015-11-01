@@ -5,9 +5,6 @@ import com.miretz.designpatterns.iterator.PatternIterator;
 import com.miretz.designpatterns.iterator.PatternList;
 import com.miretz.designpatterns.iterator.PatternListImpl;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public class IteratorPatternTest {
 
     @Test

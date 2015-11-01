@@ -1,8 +1,5 @@
 package com.miretz.designpatterns.iterator;
 
-/**
- * Created by Miretz on 28. 10. 2015.
- */
 //this object will be stored to the aggregate
 public class DesignPattern {
 

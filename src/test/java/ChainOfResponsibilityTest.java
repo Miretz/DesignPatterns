@@ -4,9 +4,6 @@ import org.junit.Test;
 import com.miretz.designpatterns.chainofresponsibility.AbstractHandler;
 import com.miretz.designpatterns.chainofresponsibility.RequestHandlerManager;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public class ChainOfResponsibilityTest {
 
     private AbstractHandler requestHandler;

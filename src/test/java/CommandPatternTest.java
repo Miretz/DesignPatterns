@@ -9,9 +9,6 @@ import com.miretz.designpatterns.command.RotatingTop;
 import com.miretz.designpatterns.command.TopRotateCommand;
 import com.miretz.designpatterns.command.TopStopRotateCommand;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public class CommandPatternTest {
 
     @Test

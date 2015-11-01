@@ -1,1 +1,1 @@
-A few Java Desing Patterns
+A few Java Design Patterns

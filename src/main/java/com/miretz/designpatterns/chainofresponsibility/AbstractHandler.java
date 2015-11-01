@@ -1,13 +1,10 @@
 package com.miretz.designpatterns.chainofresponsibility;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public abstract class AbstractHandler {
 
-    public static int REQUEST_TYPE_1 = 1;
-    public static int REQUEST_TYPE_2 = 2;
-    public static int REQUEST_TYPE_3 = 3;
+    public static final int REQUEST_TYPE_1 = 1;
+    public static final int REQUEST_TYPE_2 = 2;
+    public static final int REQUEST_TYPE_3 = 3;
 
     protected int level;
 
@@ -17,7 +14,7 @@ public abstract class AbstractHandler {
         this.nextHandler = nextHandler;
     }
 
-    public void receiveRequest(int level, String message) {
+    public void receiveRequest(final int level, final String message) {
         if (this.level == level) {
             handleRequest(message);
         }
@@ -29,6 +26,6 @@ public abstract class AbstractHandler {
         }
     }
 
-    abstract protected void handleRequest(String message);
+    abstract protected void handleRequest(final String message);
 
 }

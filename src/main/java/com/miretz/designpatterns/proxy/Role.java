@@ -1,8 +1,5 @@
 package com.miretz.designpatterns.proxy;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public class Role {
 
     private String role;

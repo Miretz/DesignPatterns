@@ -1,9 +1,10 @@
 package com.miretz.designpatterns.command;
 
 public class TopRotateCommand implements CommandBase {
+
     private final RotatingTop rotatingTop;
 
-    public TopRotateCommand(final RotatingTop rotatingTop){
+    public TopRotateCommand(final RotatingTop rotatingTop) {
         this.rotatingTop = rotatingTop;
     }
 

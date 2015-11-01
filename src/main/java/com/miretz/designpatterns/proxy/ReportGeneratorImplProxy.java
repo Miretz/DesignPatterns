@@ -1,9 +1,5 @@
 package com.miretz.designpatterns.proxy;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
-
 //Proxy object with the same interface
 public class ReportGeneratorImplProxy implements ReportGenerator {
 

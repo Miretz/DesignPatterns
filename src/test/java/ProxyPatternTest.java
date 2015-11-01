@@ -4,9 +4,6 @@ import com.miretz.designpatterns.proxy.ReportGenerator;
 import com.miretz.designpatterns.proxy.ReportGeneratorImplProxy;
 import com.miretz.designpatterns.proxy.Role;
 
-/**
- * Created by Miretz on 1. 11. 2015.
- */
 public class ProxyPatternTest {
 
     @Test
