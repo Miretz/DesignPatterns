@@ -1,3 +1,5 @@
+package com.miretz.designpatterns.chainofresponsibility;
+
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,3 +1,5 @@
+package com.miretz.designpatterns.command;
+
 import org.junit.Test;
 
 import com.miretz.designpatterns.command.Car;

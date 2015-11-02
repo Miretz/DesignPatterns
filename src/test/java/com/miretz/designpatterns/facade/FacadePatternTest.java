@@ -1,3 +1,5 @@
+package com.miretz.designpatterns.facade;
+
 import org.junit.Test;
 
 import com.miretz.designpatterns.facade.OrderController;

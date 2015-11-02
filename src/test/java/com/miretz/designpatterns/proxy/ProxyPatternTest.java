@@ -1,3 +1,5 @@
+package com.miretz.designpatterns.proxy;
+
 import org.junit.Test;
 
 import com.miretz.designpatterns.proxy.ReportGenerator;

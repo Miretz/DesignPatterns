@@ -1,3 +1,5 @@
+package com.miretz.designpatterns.iterator;
+
 import org.junit.Test;
 
 import com.miretz.designpatterns.iterator.DesignPattern;
